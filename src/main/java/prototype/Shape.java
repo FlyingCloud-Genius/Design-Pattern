@@ -16,7 +16,7 @@ public abstract class Shape implements Cloneable {
 
     public String getType(){
         return type;
-    }
+    }git
 
     public String getId() {
         return id;
