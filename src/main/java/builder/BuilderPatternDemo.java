@@ -5,6 +5,11 @@ package builder;
  * @author: Cloud
  * @create: 2020-05-05
  * @description:
+ * 1. independent and easy to extend
+ * 2. easy to control the inside risk
+ * 3. has to use with similarity
+ * 4. big builder will have complicated inside the design
+ * 5. the object inside must rely on property
  **/
 public class BuilderPatternDemo {
 

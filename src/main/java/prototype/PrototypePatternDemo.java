@@ -12,6 +12,9 @@ package prototype;
  * 5. multiple used of an object
  * 6. access for other object
  * 7. always used with factory pattern
+ * -------------------------
+ * from my point of view, it is a kind of optimization for factory pattern.
+ * solve the problem of multiple times class initialization. save resource for JVM.
  **/
 public class PrototypePatternDemo {
 
