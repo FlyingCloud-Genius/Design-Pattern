@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e30dc0c-8e0b-4598-b8d7-9ef6141434d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/AdapterPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/AudioPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/MediaAdapter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Mp4Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/VlcPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/DrawAPI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/BridgePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/GreenCircle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/bridge/RedCircle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/bridge/RedCircle.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,13 +70,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BuilderPatternDemo">
-    <configuration name="AbstractFactoryPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstract_factory.AbstractFactoryPatternDemo" />
+  <component name="RunManager" selected="Application.BridgePatternDemo">
+    <configuration name="BridgePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bridge.BridgePatternDemo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstract_factory.*" />
+          <option name="PATTERN" value="bridge.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BridgePatternDemo" />
         <item itemvalue="Application.BuilderPatternDemo" />
         <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Application.VolatileDemo2" />
         <item itemvalue="Application.VolatileDemo" />
-        <item itemvalue="Application.AbstractFactoryPatternDemo" />
       </list>
     </recent_temporary>
   </component>
