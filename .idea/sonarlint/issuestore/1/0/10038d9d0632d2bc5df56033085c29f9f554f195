@@ -1,0 +1,7 @@
+
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(é§²¡ùÿÿÿÿ8·Âë’¡.
+\
+java:S1118":Add a private constructor to hide the implicit public one.(Ã·ÑÚýÿÿÿÿ8·Âë’¡.
+x
+java:S1149"VReplace the synchronized class "Hashtable" by an unsynchronized one such as "HashMap".(é§²¡ùÿÿÿÿ8·Âë’¡.

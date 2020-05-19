@@ -5,16 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e30dc0c-8e0b-4598-b8d7-9ef6141434d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/AdvancedMediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/MediaPlayer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/PrototypePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/ShapeCache.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/prototype/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/AdapterPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/AudioPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/MediaAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/Mp4Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/adapter/VlcPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/bridge/DrawAPI.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prototype/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/Shape.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
