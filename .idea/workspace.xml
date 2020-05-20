@@ -5,17 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e30dc0c-8e0b-4598-b8d7-9ef6141434d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/AndCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/Criteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CriteriaFemale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CriteriaMale.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CriteriaPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/CriteriaSingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/OrCriteria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/filter/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/CompositePatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/composite/Employee.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/builder/BuilderPatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/builder/BuilderPatternDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prototype/PrototypePatternDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/prototype/PrototypePatternDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
