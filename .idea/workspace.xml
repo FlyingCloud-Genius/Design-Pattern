@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e30dc0c-8e0b-4598-b8d7-9ef6141434d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/CompositePatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/composite/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/circulate_inheritance/circulate_inheritance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/DecoratorPatternDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/RedShapeDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ShapeDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/bridge/BridgePatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bridge/BridgePatternDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/builder/BuilderPatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/BuilderPatternDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/prototype/PrototypePatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/prototype/PrototypePatternDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,6 +57,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.statistic.project.settings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Cloud\Desktop\java\design_pattern\src\main\java" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="abstract_factory" />
     </key>
@@ -68,7 +79,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BridgePatternDemo">
+  <component name="RunManager" selected="Application.DecoratorPatternDemo">
     <configuration name="BridgePatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="bridge.BridgePatternDemo" />
       <module name="design_pattern" />
@@ -95,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SingletonPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="singleton.SingletonPatternDemo" />
+    <configuration name="DecoratorPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="decorator.DecoratorPatternDemo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="singleton.*" />
+          <option name="PATTERN" value="decorator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,12 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="VolatileDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="keyword.VolatileDemo" />
+    <configuration name="SingletonPatternDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="singleton.SingletonPatternDemo" />
       <module name="design_pattern" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="keyword.*" />
+          <option name="PATTERN" value="singleton.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -136,11 +147,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DecoratorPatternDemo" />
         <item itemvalue="Application.BridgePatternDemo" />
         <item itemvalue="Application.BuilderPatternDemo" />
         <item itemvalue="Application.SingletonPatternDemo" />
         <item itemvalue="Application.VolatileDemo2" />
-        <item itemvalue="Application.VolatileDemo" />
       </list>
     </recent_temporary>
   </component>

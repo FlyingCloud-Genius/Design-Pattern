@@ -42,8 +42,16 @@ with interface or abstraction.
     reason to change it.**
     
 2. My Understanding:  
-    In OOP, we always follow a rule, high cohesion, low coupling. The rule of single responsibility principle is about extending
+    1. In OOP, we always follow a rule, high cohesion, low coupling. The rule of single responsibility principle is about extending
     the rule. We include less responsibility in one class to higher its cohesion, to reduce the change to it. The point of this rule
     is about dividing the responsibility properly for each class. In different classes with different requirement, we need to decouple
     classes properly.
     
+    2. Under different requirement of fine-grain, it will be suitable for different business requirement. 
+    **There is no perfect design. But only the most suitable under the circumstance.**
+    
+## Interface Segregation Principle
+1.  Definition:  
+    Clients should not be forced to depend upon interfaces that they don't use.  
+    OR:  
+    The dependency of one class to another one should depend on the smallest possible interface.
