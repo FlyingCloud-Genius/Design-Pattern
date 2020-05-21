@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e30dc0c-8e0b-4598-b8d7-9ef6141434d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/circulate_inheritance/circulate_inheritance.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/DecoratorPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/RedShapeDecorator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/decorator/ShapeDecorator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/bridge/BridgePatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/bridge/BridgePatternDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/builder/BuilderPatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/builder/BuilderPatternDemo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/prototype/PrototypePatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/prototype/PrototypePatternDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

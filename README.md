@@ -1,4 +1,4 @@
-#Some rules for design pattern
+# Some rules for design pattern
 
 Here introduce some of the basic rules to design a good system.
 
@@ -55,3 +55,26 @@ with interface or abstraction.
     Clients should not be forced to depend upon interfaces that they don't use.  
     OR:  
     The dependency of one class to another one should depend on the smallest possible interface.
+    
+2. My Understanding
+    1. We only provide interfaces for what clients need. We don't rely on the interface as long as the client fo not need it.
+    Extra interface means a higher coupling in the program.
+    
+    2. The dependency of different class should be built on the minimum interface. The minimum interface means higher cohesion
+    in the program. To design the minimum interface, it is related to the grain size of the interface. From some point of view,
+    the SRP and ISP are similar.
+    
+    3. **SRP and ISP**:  
+        1. From the point of principle restraint, ISP focus more on dependency of different interface, more about **cohesion**.
+        But for SRP, it focus more on responsibility of different interface.
+        
+        2. SRP focus on how to seperate the interface, while ISP focus on isolation of interface with similar functions. The
+        minimum interfce with ISP can implement many SRP interface. 
+        
+        3. ISP focus more on structuring rather than business. Differently, the SRP focus more on restraining the business model.
+        
+## Open Closed Principle
+1. Definition:  
+    
+
+## Liskov Substitution Principle
