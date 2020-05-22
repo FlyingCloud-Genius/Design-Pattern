@@ -75,6 +75,22 @@ with interface or abstraction.
         
 ## Open Closed Principle
 1. Definition:  
+    Software entities (class, module, function) should be open for extension but closed for modification.
     
+2. My understanding:
+    1. Open for extention. It means extending the module to satisfy all the new actions.
+    
+    2. Cloesd for modification. When the demand changes, we do not change the source code but extend the source code
+    in the extention package.
+    
+    3. Why we need "open" and "closed"?  
+        When we recieve the notice that we need modification on the demand, what we usually do is to modify the current 
+        source code. However, there is a huge risk of doing that, especially when the program is already been loadded for some time.
+        Therefore, to decrease the risk, what we do is not to modify the source code, as we called the "Closed principle".  
+        
+        What we actually do is to extend the package and add more functions to satisfy the changes. That is what we called IOP (Api oriented programming)
+         or AOP(Abstraction Oriented Programming).For every parameter class or passing reference, we must use abstraction or interface to define it rather
+         than using realization class directly. We use abstraction to define extention. If we define an interface A, then, our extention must be the realization 
+         class for interface A. (In this way, it will save a lot of time.) **As a conclusion, Open Closed Principle higher the maintainability and reusability.**
 
 ## Liskov Substitution Principle
