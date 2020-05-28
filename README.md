@@ -1,5 +1,6 @@
 # Some rules for design pattern
 
+**Remember to read this first before moving on to actual cases!** 
 Here introduce some of the basic rules to design a good system.
 
 ## Dependence Inversion
@@ -10,8 +11,8 @@ Details should depend upon abstractions.
 
 2. My Understanding:  
     1.  High modules should not depend on the realization of the object,
-but should depend on the abstraction. The dependency always comes
-with interface or abstraction.
+    but should depend on the abstraction. The dependency always comes
+    with interface or abstraction.
 
     2.  The interface and abstraction should not depend on realization, but the realization does.
 
@@ -32,7 +33,7 @@ with interface or abstraction.
     
     2. **Dependency Injection(DI)**: DI is one of the way to realize IoC to convert dependency.
     
-    3. **IoC container**: The framework for dependency injection, used for projecting dependency, maintaining the life circle and initialization of the object.
+    3. **IoC Container**: The framework for dependency injection, used for projecting dependency, maintaining the life circle and initialization of the object.
 
 
 ## Single Responsibility Principle
@@ -68,8 +69,8 @@ with interface or abstraction.
         1. From the point of principle restraint, ISP focus more on dependency of different interface, more about **cohesion**.
         But for SRP, it focus more on responsibility of different interface.
         
-        2. SRP focus on how to seperate the interface, while ISP focus on isolation of interface with similar functions. The
-        minimum interfce with ISP can implement many SRP interface. 
+        2. SRP focus on how to separate the interface, while ISP focus on isolation of interface with similar functions. The
+        minimum interface with ISP can implement many SRP interface. 
         
         3. ISP focus more on structuring rather than business. Differently, the SRP focus more on restraining the business model.
         
@@ -78,19 +79,43 @@ with interface or abstraction.
     Software entities (class, module, function) should be open for extension but closed for modification.
     
 2. My understanding:
-    1. Open for extention. It means extending the module to satisfy all the new actions.
+    1. Open for extension. It means extending the module to satisfy all the new actions.
     
-    2. Cloesd for modification. When the demand changes, we do not change the source code but extend the source code
-    in the extention package.
+    2. Closed for modification. When the demand changes, we do not change the source code but extend the source code
+    in the extension package.
     
     3. Why we need "open" and "closed"?  
-        When we recieve the notice that we need modification on the demand, what we usually do is to modify the current 
-        source code. However, there is a huge risk of doing that, especially when the program is already been loadded for some time.
+        When we receive the notice that we need modification on the demand, what we usually do is to modify the current 
+        source code. However, there is a huge risk of doing that, especially when the program is already been loaded for some time.
         Therefore, to decrease the risk, what we do is not to modify the source code, as we called the "Closed principle".  
         
         What we actually do is to extend the package and add more functions to satisfy the changes. That is what we called IOP (Api oriented programming)
          or AOP(Abstraction Oriented Programming).For every parameter class or passing reference, we must use abstraction or interface to define it rather
-         than using realization class directly. We use abstraction to define extention. If we define an interface A, then, our extention must be the realization 
+         than using realization class directly. We use abstraction to define extension. If we define an interface A, then, our extension must be the realization 
          class for interface A. (In this way, it will save a lot of time.) **As a conclusion, Open Closed Principle higher the maintainability and reusability.**
 
 ## Liskov Substitution Principle
+1. Definition:  
+    If for each object o1 of type S, there is an object o2 of type T such that for all programs P
+    defined in terms of T, the behavior of P is unchanged when o1 is substituted o2 then S is a subtype of T.  
+    Or:  
+    Functions that using pointers or references to base classes must be able
+     to use objects of derived classes without knowing it.
+     
+2. Meaning during Implementation:
+    1. Child class must implement the abstract method of the parent class, but should not override the non-abstract method.
+    
+    2. The child class can add its own method.
+    
+    3. When child class override or implementing the method of father class, the condition of a child class should be more 
+    loose for a child's class rather than a father class.
+    
+    4. When a child's method is implementing, the return value should be stricter than the father class.
+    
+3. My Understanding:
+    1. Father can be replaced by child class. But child class can not be replaced by father class. This is about the inheritance hierarchy.
+    
+    2. To substitute this principle, we should not change the father class's function inherited in the child class. We can only add new functions.
+    
+    3. When the child class implements the abstract method in father class, the return should be stricter. Differently, for input in the method, 
+    the child class should have much loose prior condition.
