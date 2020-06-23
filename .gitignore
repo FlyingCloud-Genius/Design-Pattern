@@ -1,0 +1,11 @@
+# all class files
+*.class
+
+# target folder
+/target
+
+# .idea folder
+/.idea
+
+# not src
+!/src

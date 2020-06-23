@@ -1,8 +1,0 @@
-
-i
-java:S1192"GDefine a constant instead of duplicating this literal "Single" 4 times.(ñç¼Íûÿÿÿÿ8§‹üé¢.
-Z	java:S106'"9Replace this use of System.out or System.err by a logger.(èàøÌüÿÿÿÿ8Ó¹‹ê¢.
-U	java:S106$"9Replace this use of System.out or System.err by a logger.(²ÎÎ’8Ó¹‹ê¢.
-Z	java:S1060"9Replace this use of System.out or System.err by a logger.(å´É‘ùÿÿÿÿ8Ýõþé¢.
-T	java:S106!"9Replace this use of System.out or System.err by a logger.(ú ¯l8Ó¹‹ê¢.
-Z	java:S106*"9Replace this use of System.out or System.err by a logger.(ò¼‘©ûÿÿÿÿ8Ó¹‹ê¢.
