@@ -5,27 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e30dc0c-8e0b-4598-b8d7-9ef6141434d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Broker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/BuyStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/CommandPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/SellStock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/command/Stock.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flywieght/Circle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flywieght/FlyweightPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flywieght/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/flywieght/ShapeFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/Image.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/ProxyImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/ProxyPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/proxy/RealImage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/responsibility_chain/AbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/responsibility_chain/ChainPatternDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/responsibility_chain/ConsoleLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/responsibility_chain/ErrorLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/responsibility_chain/FileLogger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/decorator/DecoratorPatternDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/decorator/DecoratorPatternDemo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
