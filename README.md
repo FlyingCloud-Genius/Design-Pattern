@@ -1,7 +1,14 @@
 # Some rules for design pattern
 
 **Remember to read this first before moving on to actual cases!** 
-Here introduce some of the basic rules to design a good system.
+Here introduce some basic rules to design a good system.
+1. **Dependency Inversion**
+2. **Single Responsibility Principle**
+3. **Interface Segregation Principle**
+4. **Open Closed Principle**
+5. **Least Knowledge Principle** (Law of Demeter)
+6. **Liskov Substitution Principle**
+7. **Composite/Aggregate Reuse Principle** (CARP/CRP)
 
 ## Dependence Inversion
 1. Definition:  
@@ -92,7 +99,11 @@ Details should depend upon abstractions.
         What we actually do is to extend the package and add more functions to satisfy the changes. That is what we called IOP (Api oriented programming)
          or AOP(Abstraction Oriented Programming).For every parameter class or passing reference, we must use abstraction or interface to define it rather
          than using realization class directly. We use abstraction to define extension. If we define an interface A, then, our extension must be the realization 
-         class for interface A. (In this way, it will save a lot of time.) **As a conclusion, Open Closed Principle higher the maintainability and reusability.**
+         class for the interface A. (In this way, it will save a lot of time.) **As a conclusion, Open Closed Principle higher the maintainability and reusability.**
+
+## Least Knowledge Principle (Law of Demeter)
+1. Definition: 
+    
 
 ## Liskov Substitution Principle
 1. Definition:  
@@ -119,3 +130,5 @@ Details should depend upon abstractions.
     
     3. When the child class implements the abstract method in father class, the return should be stricter. Differently, for input in the method, 
     the child class should have much loose prior condition.
+    
+## Composite/Aggregate Reuse Principle (CARP/CRP)

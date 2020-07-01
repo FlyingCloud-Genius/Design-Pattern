@@ -8,7 +8,7 @@ package strategy;
  * 1. The strategy can be changed with freedom.
  * 2. This pattern always used for actual business, while the interpreter is used
  * for programmers' self-defined language decoding.
- * 3.
+ * 3. All the strategy will be exposd to the outside environment.
  **/
 
 public class StrategyPatternDemo {
