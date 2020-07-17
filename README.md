@@ -2,12 +2,12 @@
 
 **Remember to read this first before moving on to actual cases!** 
 Here introduce some basic rules to design a good system.
-1. **Dependency Inversion**
-2. **Single Responsibility Principle**
-3. **Interface Segregation Principle**
-4. **Open Closed Principle**
-5. **Least Knowledge Principle** (Law of Demeter)
-6. **Liskov Substitution Principle**
+1. **Dependency Inversion**: dependency from high to low -> low to high
+2. **Single Responsibility Principle**: be responsible for only one thing for a  class
+3. **Interface Segregation Principle**: depend on the least functions interface provide
+4. **Open Closed Principle**: extend the class rather than change it directly
+5. **Least Knowledge Principle** (Law of Demeter): know the least for a class, communicate directly
+6. **Liskov Substitution Principle**: don't change the parent class, implement what is needed
 7. **Composite/Aggregate Reuse Principle** (CARP/CRP)
 
 ## Dependence Inversion
@@ -103,7 +103,11 @@ Details should depend upon abstractions.
 
 ## Least Knowledge Principle (Law of Demeter)
 1. Definition: 
+    The meaning of using this law is about lowing the coupling among classes. Deducting the communication if it is not 
+    directly passing variable.
     
+2. My understanding: 
+    Make things public when necessary and exchange information with class directly. 
 
 ## Liskov Substitution Principle
 1. Definition:  
@@ -132,3 +136,9 @@ Details should depend upon abstractions.
     the child class should have much loose prior condition.
     
 ## Composite/Aggregate Reuse Principle (CARP/CRP)
+1. Definition:
+    Classes should achieve polymorphic behavior and code reuse by their composition (by containing instances of other classes that 
+    implement the desired functionality) rather than inheritance from a base or parent class.
+    
+2. My understanding:
+    Use aggregation and composition more rather than inheritance. 

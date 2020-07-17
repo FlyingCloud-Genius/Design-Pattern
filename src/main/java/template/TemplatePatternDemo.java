@@ -10,7 +10,7 @@ package template;
  * 3. The complicated inside logic with similar .sphere can use this pattern.
  **/
 
-public class TempltePatternDemo {
+public class TemplatePatternDemo {
 
     public static void main(String[] args) {
         Game game = new Cricket();
