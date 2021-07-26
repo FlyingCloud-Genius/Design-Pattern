@@ -1,4 +1,4 @@
-package combine;
+package complicated.combined;
 
 import java.util.ArrayList;
 import java.util.List;

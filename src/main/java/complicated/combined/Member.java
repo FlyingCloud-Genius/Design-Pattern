@@ -1,4 +1,4 @@
-package combine;
+package complicated.combined;
 
 /**
  * @Author：Cloud Yang
